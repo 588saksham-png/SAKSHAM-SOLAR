@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAKSHAM SOLAR</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+header {
+    background: linear-gradient(90deg, #000000, #1a1a1a);
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: gold;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #111;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover { color: gold; }
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('/mnt/data/SOL.jpeg') no-repeat center/cover;
+}
+.hero h2 { font-size: 50px; }
+.hero p { font-size: 20px; }
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.gallery img {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+button {
+    background: gold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>SAKSHAM SOLAR</h1>
+    <p>Powering Your Future with Solar Energy</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Luxury Solar Solutions</h2>
+    <p>Save Energy | Save Money | Save the Planet</p>
+    <button onclick="document.getElementById('contact').scrollIntoView()">Get Inquiry</button>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <div class="card">
+        <p>Embrace a brighter, more sustainable future with SAKSHAM SOLAR. As a leader in renewable energy, we specialize in providing innovative solar solutions tailored for both homes and businesses.</p>
+        <p>Situated on Jhansi Road in Karera, Madhya Pradesh, near the I Love Karera landmark, our expert team delivers premium installations.</p>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="card">
+        <ul>
+            <li>Solar Panel Installation</li>
+            <li>Residential Solar Systems</li>
+            <li>Commercial Solar Solutions</li>
+            <li>Maintenance & Support</li>
+            <li><strong>Government Subsidy up to ₹78,000</strong></li>
+        </ul>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery">
+        <img src="/mnt/data/SOL.jpeg" alt="Solar Installation">
+        <img src="/mnt/data/EARTH.jpeg" alt="Ground Work">
+        <img src="/mnt/data/EARTH 2.jpeg" alt="Earthing Work">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact & Inquiry</h2>
+    <div class="card">
+        <p><strong>Phone:</strong> 9131791271</p>
+        <p><strong>Email:</strong> sakshamsolar588@gmail.com</p>
+        <p><strong>Location:</strong> Near Radhe Bawri, Jhansi Road, Karera</p>
+
+        <h3>Send Inquiry</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="tel" placeholder="Your Phone" required>
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<a href="https://wa.me/919131791271" class="whatsapp">💬</a>
+
+<footer>
+    <p>© 2026 SAKSHAM SOLAR | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
